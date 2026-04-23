@@ -2,9 +2,55 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 4094031b-a9da-4ac5-aaa1-42b342c92a3e)
+	(uuid "4094031b-a9da-4ac5-aaa1-42b342c92a3e")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 248.92 15.24)
+		(size 35.56 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d432553b-ab0c-45ec-bbdd-5af2e9267855")
+		(property "Sheetname" "Compression block"
+			(at 248.92 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Cp.kicad_sch"
+			(at 248.92 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AMP_DP0"
+				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
