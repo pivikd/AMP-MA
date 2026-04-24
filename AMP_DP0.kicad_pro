@@ -416,7 +416,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "SW1,RV1-2,R10-37,U1,Q3-11,D2-6,C7-23,LEVEL1,#PWR13-33",
+    "used_designators": "SW1,RV1-2,R5,R10-37,D1,D3-7,C7-23,LEVEL1,#PWR10-35,U1,Q1,Q3-11",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,10 @@
     [
       "d432553b-ab0c-45ec-bbdd-5af2e9267855",
       "Compression block"
+    ],
+    [
+      "50fcec93-e12d-4852-998b-ff512e6cbf1d",
+      "power supply"
     ]
   ],
   "text_variables": {},
