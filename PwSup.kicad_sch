@@ -1486,6 +1486,18 @@
 		(uuid "60dbf92a-a23a-448f-96ee-c08874b8c74a")
 	)
 	(rectangle
+		(start 88.9 16.51)
+		(end 110.49 35.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8b149d9d-63e4-4307-90c8-77e21a8308e3")
+	)
+	(rectangle
 		(start 102.87 50.8)
 		(end 127 74.93)
 		(stroke
@@ -1508,6 +1520,18 @@
 			)
 		)
 		(uuid "7b769933-7043-49ee-b0b1-62d867511915")
+	)
+	(text "block Mu"
+		(exclude_from_sim no)
+		(at 96.774 19.304 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "833ce0bc-81c0-456f-b0fd-7e445c205f03")
 	)
 	(text "POWER SUPLY"
 		(exclude_from_sim no)
@@ -1562,6 +1586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d9397e4-4d1c-423c-ba8a-e15c56437fb9")
+	)
+	(junction
+		(at 106.68 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c140f9-449d-4135-af2a-49fad30d32ba")
 	)
 	(junction
 		(at 106.68 59.69)
@@ -1735,6 +1765,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 25.4) (xy 106.68 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6202a94-6b77-4002-8153-5bed49a7a19b")
+	)
+	(wire
+		(pts
 			(xy 86.36 55.88) (xy 77.47 55.88)
 		)
 		(stroke
@@ -1805,6 +1845,26 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 25.4) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d93bf3-99ce-4237-9572-b4bd81aae4ec")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 106.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeea8b06-1985-45bb-b3bf-2bc582bc1b43")
+	)
+	(wire
+		(pts
 			(xy 120.65 36.83) (xy 120.65 38.1)
 		)
 		(stroke
@@ -1822,6 +1882,16 @@
 			(type default)
 		)
 		(uuid "f38cf053-cd0c-4587-9dc1-c95f27319818")
+	)
+	(wire
+		(pts
+			(xy 106.68 17.78) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b2e43d-f6c4-4a5e-9803-517faadbafaf")
 	)
 	(wire
 		(pts
@@ -1872,6 +1942,16 @@
 			(justify right bottom)
 		)
 		(uuid "adcfeeb0-85cd-4eab-86f5-fcc5179efba7")
+	)
+	(label "VMu"
+		(at 106.68 17.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6725cf5-0490-47bb-9d43-ac4d4833aab9")
 	)
 	(label "VC"
 		(at 119.38 53.34 270)
@@ -2758,6 +2838,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 106.68 30.48 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "481db670-6083-415e-8130-9728a34a343a")
+		(property "Reference" "R5"
+			(at 105.664 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 105.664 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 108.458 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5f71b83-5a1b-43a4-a990-9371cd5329a8")
+		)
+		(pin "1"
+			(uuid "67ca2637-5459-4bac-a3ca-e4d8ffdb0214")
+		)
+		(instances
+			(project "AMP_DP0"
+				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 71.12 0)
 		(mirror y)
@@ -3475,6 +3637,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 96.52 25.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6a71eb-1388-41d8-a96e-aebc70972a8b")
+		(property "Reference" "#PWR010"
+			(at 90.17 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf8b6f0a-9dec-4718-b470-d6be70abd2a0")
+		)
+		(instances
+			(project "AMP_DP0"
+				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 54.61 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -3868,6 +4109,87 @@
 			(project "AMP_DP0"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 100.33 25.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd3079f4-c758-4cd4-96dc-01af6682b248")
+		(property "Reference" "CE5"
+			(at 95.504 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 101.346 22.606 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 96.52 26.3652 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 100.33 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "324f5293-81dd-4916-8f6b-e28424635c3d")
+		)
+		(pin "1"
+			(uuid "014c3848-c40b-471c-9637-179f37ad71a9")
+		)
+		(instances
+			(project "AMP_DP0"
+				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
+					(reference "CE5")
 					(unit 1)
 				)
 			)
