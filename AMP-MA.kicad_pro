@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AMP_DP0.kicad_pro",
+    "filename": "AMP-MA.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -411,8 +411,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "AMP_DP0.kicad_sch",
-        "name": "AMP_DP0",
+        "filename": "AMP-MA.kicad_sch",
+        "name": "AMP-MA",
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
