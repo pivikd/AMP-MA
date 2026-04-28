@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0PrA%20(PREALPHA)-orange">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0_PrA%20(PREALPHA)-orange">
    <img alt="Static Badge" src="https://img.shields.io/badge/License-GPL--3.0-blue">
 </p><p align="center">
    <img alt="Static Badge" src="https://img.shields.io/badge/Made_with-ARCH-1793D1?style=flat&logo=archlinux&logoColor=%231793D1">
