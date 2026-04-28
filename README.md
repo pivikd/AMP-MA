@@ -1,8 +1,9 @@
 <p align="center">
-   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0A%20(ALPHA)-yellow">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0PrA%20(PREALPHA)-orange">
    <img alt="Static Badge" src="https://img.shields.io/badge/License-GPL--3.0-blue">
 </p><p align="center">
-   <img alt="Static Badge" src="https://img.shields.io/badge/MADE_WITH-ARCH-1793D1?style=flat&logo=archlinux&logoColor=%231793D1">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Made_with-ARCH-1793D1?style=flat&logo=archlinux&logoColor=%231793D1">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Made_with-KiCad-ED7318">
 </p>
 
 # Project Status
@@ -35,11 +36,11 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
 
 ## Signal Chain
    1. Input buffer
-   1. Preamp 
-   1. Compressor
-   1. Tone Stack
+   1. Preamp ([Mu-AMP](https://www.muzique.com/amz/mini.htm))
+   1. Compressor ([Ibanez CP835](https://www.scribd.com/document/976348354/Ibanez-CP835-Schematic))
+   1. Tone Stack ([JCM900 2100 SL-X](https://stompboxelectronics.com/2023/12/16/the-marshall-tone-stacks/))
    1. Recovery Stage
-   1. Power Amp (LM1875)
+   1. Power Amp ([LM1875](https://www.ti.com/lit/ds/symlink/lm1875.pdf))
 
 ## Integrated Effects Modules
 |       Effect      |   based on   |  Satus  |
