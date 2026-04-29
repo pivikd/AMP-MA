@@ -632,7 +632,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "#PWR38-40,J1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -647,10 +647,6 @@
     [
       "50fcec93-e12d-4852-998b-ff512e6cbf1d",
       "power supply"
-    ],
-    [
-      "c409142e-7085-451b-ba05-ee887e2bfcc7",
-      "Tone Stack"
     ]
   ],
   "text_variables": {},
