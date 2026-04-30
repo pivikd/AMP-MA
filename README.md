@@ -9,6 +9,8 @@
 # Project Status
 
    **AMP-AM is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q3 2026**
+   
+   **The project is currently in the pre-alpha stage – creating the first prototype**
 
 # AMP-AM (AMP Modus Aequale)
 
