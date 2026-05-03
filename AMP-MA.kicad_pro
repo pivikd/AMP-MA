@@ -632,7 +632,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "#PWR48-49,C36-37,D1,D8-11,SW2,T1,F1,J3-4",
+    "used_designators": "J5-7",
     "variants": []
   },
   "sheets": [
@@ -641,12 +641,12 @@
       "AMP-MA"
     ],
     [
-      "d432553b-ab0c-45ec-bbdd-5af2e9267855",
-      "Compression block"
-    ],
-    [
       "50fcec93-e12d-4852-998b-ff512e6cbf1d",
       "power supply"
+    ],
+    [
+      "d432553b-ab0c-45ec-bbdd-5af2e9267855",
+      "Compression block"
     ]
   ],
   "text_variables": {},

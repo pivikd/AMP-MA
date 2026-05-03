@@ -2505,7 +2505,21 @@
 		(uuid "1183c121-6cd7-435a-bbaf-e7ef30965419")
 	)
 	(rectangle
-		(start 99.06 50.8)
+		(start 127 91.44)
+		(end 132.08 100.33)
+		(radius 2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+			(color 255 153 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "26f0cc28-1927-4d61-8394-27f6949703cd")
+	)
+	(rectangle
+		(start 99.06 53.34)
 		(end 104.14 60.96)
 		(radius 2.54)
 		(stroke
@@ -2986,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 130.81 88.9)
+			(xy 130.81 99.06) (xy 130.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4429,7 +4443,7 @@
 		)
 		(uuid "9d9d5a0b-2764-4c71-a01b-ec4bbc4eea8b")
 	)
-	(label "CP_OUT"
+	(label "CP_IN"
 		(at 102.87 59.69 90)
 		(effects
 			(font
@@ -4449,7 +4463,7 @@
 		)
 		(uuid "b26e0bc3-3ca1-47bb-a6e5-5b973a3f9dce")
 	)
-	(label "CP_OUT"
+	(label "CP_IN"
 		(at 162.56 69.85 270)
 		(effects
 			(font
@@ -4480,7 +4494,7 @@
 		(uuid "c9155680-6a9f-47fa-a8cd-286be851783b")
 	)
 	(label "OUTPUT"
-		(at 130.81 97.79 90)
+		(at 130.81 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5687,7 +5701,7 @@
 		(dnp no)
 		(uuid "290443a4-392a-430d-a146-43d89fad7a8f")
 		(property "Reference" "LEVEL1"
-			(at 155.702 90.678 0)
+			(at 154.432 90.678 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects

@@ -9136,7 +9136,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PwSup.kicad_sch"
+		(property "Sheetfile" "Schematics/PwSup.kicad_sch"
 			(at 198.12 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9150,7 +9150,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -9182,7 +9182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Cp.kicad_sch"
+		(property "Sheetfile" "Schematics/Cp.kicad_sch"
 			(at 240.03 60.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9196,7 +9196,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
