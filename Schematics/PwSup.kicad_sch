@@ -3303,7 +3303,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
 			(at 72.39 56.8452 0)
 			(hide yes)
 			(show_name no)
@@ -3571,7 +3571,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
 			(at 95.25 56.8452 0)
 			(hide yes)
 			(show_name no)
@@ -4126,7 +4126,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal"
 			(at 35.56 62.738 90)
 			(hide yes)
 			(show_name no)
