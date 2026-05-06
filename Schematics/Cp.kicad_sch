@@ -7399,7 +7399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73b16a58-e37b-4da3-9a6d-93dbab2d3e57")
-		(property "Reference" "C19"
+		(property "Reference" "C36"
 			(at 162.306 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7463,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "C19")
+					(reference "C36")
 					(unit 1)
 				)
 			)
