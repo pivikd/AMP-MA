@@ -587,207 +587,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1344,171 +1143,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:BZV55C4V7"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BZV55C4V7"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4.7V, 500mW, 5%, Zener diode, MiniMELF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*MiniMELF*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BZV55C4V7_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZV55C4V7_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2653,12 +2287,6 @@
 		(uuid "928e0ea1-e1b3-47eb-83a9-6829f3314d76")
 	)
 	(junction
-		(at 55.88 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0efc8712-b2b5-4628-967e-1e5c7df6fe5d")
-	)
-	(junction
 		(at 64.77 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2687,6 +2315,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2019582d-3ade-464c-87a8-aa33201dc763")
+	)
+	(junction
+		(at 55.88 100.33)
+		(diameter 0)
+		(color 255 255 0 1)
+		(uuid "328bad1d-6f31-4645-b401-7f75d446250c")
 	)
 	(junction
 		(at 139.7 38.1)
@@ -2801,12 +2435,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b26f6b90-81de-4cb0-921e-d799f09f6f52")
-	)
-	(junction
-		(at 39.37 100.33)
-		(diameter 0)
-		(color 255 255 0 1)
-		(uuid "b425e41f-bed0-4162-be6a-23a29cd321a8")
 	)
 	(junction
 		(at 50.8 40.64)
@@ -2996,16 +2624,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 83.82) (xy 24.13 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1419c653-0e8a-49f0-bc21-02bd28c0ba60")
-	)
-	(wire
-		(pts
 			(xy 29.21 57.15) (xy 29.21 40.64)
 		)
 		(stroke
@@ -3137,16 +2755,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 71.12) (xy 24.13 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3349dc9c-aa20-42be-ad2b-e8302207ef1e")
-	)
-	(wire
-		(pts
 			(xy 41.91 77.47) (xy 50.8 77.47)
 		)
 		(stroke
@@ -3174,16 +2782,6 @@
 			(type default)
 		)
 		(uuid "3f3405a0-ca38-47bf-9a9a-ecccd6194fda")
-	)
-	(wire
-		(pts
-			(xy 24.13 71.12) (xy 24.13 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "413d316c-6de6-4236-803e-703a413b8ed3")
 	)
 	(wire
 		(pts
@@ -3244,16 +2842,6 @@
 			(type default)
 		)
 		(uuid "522b7610-2f53-4ce8-b821-0c9973dd50f2")
-	)
-	(wire
-		(pts
-			(xy 35.56 71.12) (xy 39.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5612e0a6-e074-4900-9864-dac7f62c190d")
 	)
 	(wire
 		(pts
@@ -3387,7 +2975,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 100.33) (xy 55.88 100.33)
+			(xy 54.61 100.33) (xy 55.88 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3720,6 +3308,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 100.33) (xy 46.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b1263f-c5f3-4cc8-817e-c711bfba8709")
+	)
+	(wire
+		(pts
 			(xy 48.26 48.26) (xy 50.8 48.26)
 		)
 		(stroke
@@ -3840,16 +3438,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 71.12) (xy 39.37 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87190f4-6b8e-4126-9bf6-5e58c340e69f")
-	)
-	(wire
-		(pts
 			(xy 40.64 40.64) (xy 44.45 40.64)
 		)
 		(stroke
@@ -3880,16 +3468,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 93.98) (xy 24.13 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd48940f-0c0b-4638-9fdb-9bd89d2977f6")
-	)
-	(wire
-		(pts
 			(xy 140.97 102.87) (xy 140.97 101.6)
 		)
 		(stroke
@@ -3897,17 +3475,6 @@
 			(type default)
 		)
 		(uuid "bedd52a7-dbc3-45fc-a622-9399e243b03a")
-	)
-	(wire
-		(pts
-			(xy 39.37 87.63) (xy 39.37 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 255 0 1)
-		)
-		(uuid "c10456e1-8a08-44a1-955b-83b5ad1f4efc")
 	)
 	(wire
 		(pts
@@ -4419,16 +3986,6 @@
 			(justify right bottom)
 		)
 		(uuid "c8071447-c1b0-4296-bfc1-d1748cbdefaa")
-	)
-	(label "VC"
-		(at 24.13 93.98 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9155680-6a9f-47fa-a8cd-286be851783b")
 	)
 	(label "OUTPUT"
 		(at 130.81 99.06 90)
@@ -4944,7 +4501,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 27.94 100.33 90)
+		(at 41.91 100.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4954,7 +4511,7 @@
 		(dnp no)
 		(uuid "15970a2d-b8ef-4b39-ad43-298954eefdf0")
 		(property "Reference" "R32"
-			(at 29.972 98.298 90)
+			(at 43.942 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4965,7 +4522,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 30.226 102.362 90)
+			(at 44.196 102.362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4976,7 +4533,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 27.94 102.108 90)
+			(at 41.91 102.108 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4987,7 +4544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 100.33 0)
+			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4998,7 +4555,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 27.94 100.33 0)
+			(at 41.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6331,116 +5888,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2SC1815")
-		(at 41.91 82.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "42b06348-2e7d-4b9a-93a8-77f70993419c")
-		(property "Reference" "Q9"
-			(at 43.942 78.486 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2SC1815"
-			(at 36.576 88.646 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 36.83 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/2SC1815.pdf"
-			(at 41.91 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.15A Ic, 50V Vce, Low Noise Audio NPN Transistor, TO-92"
-			(at 41.91 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 41.91 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 41.91 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "71b2ca60-2097-4223-adfd-24b77a36e78f")
-		)
-		(pin "1"
-			(uuid "3495f55f-205c-49cb-beb6-37754c97cc36")
-		)
-		(pin "3"
-			(uuid "b7d715af-5b7b-4142-97eb-95723a4ed477")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 106.68 0)
 		(mirror x)
@@ -6845,100 +6292,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 24.13 87.63 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c26865c-fb8e-44ef-a6a1-d5ef01c4859a")
-		(property "Reference" "D5"
-			(at 24.638 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 24.638 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_BL-FL7680RGB"
-			(at 24.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 24.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 24.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "949ac6c3-3879-40a2-9f4c-dc8c9a09b750")
-		)
-		(pin "1"
-			(uuid "d1acc4d5-d45c-489a-be93-6c09e6ebb151")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Diode_AKL:1N914")
-		(at 35.56 100.33 0)
+		(at 50.8 100.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6949,7 +6304,7 @@
 		(dnp no)
 		(uuid "4f5bab66-f32f-486e-a0ed-bcd1d1968c41")
 		(property "Reference" "D6"
-			(at 31.496 99.314 0)
+			(at 46.736 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6960,7 +6315,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 32.258 102.87 0)
+			(at 47.498 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6971,7 +6326,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 35.56 100.33 0)
+			(at 50.8 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,7 +6337,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.octopart.com/1N914ATR-ON-Semiconductor-datasheet-42765246.pdf"
-			(at 35.56 100.33 0)
+			(at 50.8 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,7 +6348,7 @@
 			)
 		)
 		(property "Description" "DO-35 Diode, Small Signal, Fast Switching, 75V, 200mA, 4ns, Alternate KiCad Library"
-			(at 35.56 100.33 0)
+			(at 50.8 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,87 +6851,6 @@
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 24.13 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "61328854-9451-43dc-a744-c2792ab3146a")
-		(property "Reference" "R27"
-			(at 25.4 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 25.4 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 22.352 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "44776fb0-795d-4a75-af10-299a4ac367af")
-		)
-		(pin "1"
-			(uuid "f0e89f2c-814b-4a32-8b97-ee2a62d0f98b")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8848,88 +8122,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55C4V7")
-		(at 31.75 71.12 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99a29438-6864-456d-bf82-29bf79c25007")
-		(property "Reference" "D4"
-			(at 30.226 70.104 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BZV55C4V7"
-			(at 37.338 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 31.75 66.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 31.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7V, 500mW, 5%, Zener diode, MiniMELF"
-			(at 31.75 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cce0d104-e788-4834-af6c-f820bb138b54")
-		)
-		(pin "2"
-			(uuid "314575b3-dbb1-42df-abe0-7288b1ca0126")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2SC1815")
 		(at 147.32 38.1 0)
 		(unit 1)
@@ -9120,7 +8312,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 100.33 270)
+		(at 38.1 100.33 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9132,7 +8324,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e32152f-9f26-4231-ad93-191d84464497")
 		(property "Reference" "#PWR030"
-			(at 17.78 100.33 0)
+			(at 31.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +8335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 100.33 0)
+			(at 33.02 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9154,7 +8346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 100.33 0)
+			(at 38.1 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +8357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 100.33 0)
+			(at 38.1 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +8368,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 100.33 0)
+			(at 38.1 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11027,87 +10219,6 @@
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "feb7f0b6-76c8-4297-82a8-250513556f74")
-		(property "Reference" "R26"
-			(at 52.832 80.518 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 52.324 84.582 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 50.8 84.328 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 50.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a1333b55-1d47-49a5-beea-413539143e97")
-		)
-		(pin "1"
-			(uuid "b3a02b94-14f2-428b-86a7-53d478665ce2")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R26")
 					(unit 1)
 				)
 			)
