@@ -2094,7 +2094,7 @@
 	)
 	(rectangle
 		(start 16.51 60.96)
-		(end 143.51 100.33)
+		(end 130.81 100.33)
 		(radius 4.064)
 		(stroke
 			(width 0.381)
@@ -2212,10 +2212,10 @@
 		(uuid "bb5aa34b-ea91-48d5-b2d8-9442239e1207")
 	)
 	(junction
-		(at 123.19 85.09)
+		(at 116.84 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "092a60ff-be73-4dec-8efd-5dc38c66964b")
+		(uuid "056d9f7a-2c75-4c80-9e15-6b0fe351dbe7")
 	)
 	(junction
 		(at 146.05 27.94)
@@ -2246,12 +2246,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e2cdc18-d5b6-4969-8d66-d313c11d958a")
-	)
-	(junction
-		(at 116.84 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "501ca3ad-a8b7-40b1-9584-5708930dff1e")
 	)
 	(junction
 		(at 105.41 76.2)
@@ -2294,18 +2288,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb6446a5-4229-4494-98be-a5705b799df8")
-	)
-	(junction
-		(at 123.19 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca64a7d5-a41b-4d5d-bdb9-de62dd08186b")
-	)
-	(junction
-		(at 123.19 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e130e86f-ad08-4179-8474-76e4bbb4567b")
 	)
 	(junction
 		(at 125.73 39.37)
@@ -2400,6 +2382,16 @@
 			(type default)
 		)
 		(uuid "11b8d9de-32b2-4a94-863b-7b832cebd55c")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177a2ad8-9136-45e0-8411-08d78e0c75df")
 	)
 	(wire
 		(pts
@@ -2573,16 +2565,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 76.2) (xy 123.19 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92131dc0-ea90-469a-857c-77d7cd84e221")
-	)
-	(wire
-		(pts
 			(xy 106.68 87.63) (xy 105.41 87.63)
 		)
 		(stroke
@@ -2623,7 +2605,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 134.62 93.98)
+			(xy 123.19 92.71) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2650,16 +2632,6 @@
 			(type default)
 		)
 		(uuid "9ce32b51-1b60-447c-832d-ace7651153e5")
-	)
-	(wire
-		(pts
-			(xy 123.19 83.82) (xy 123.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d287353-5271-4007-a8a5-855637d35734")
 	)
 	(wire
 		(pts
@@ -2693,16 +2665,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 123.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a608556f-d31d-4926-ab31-6cf7b91993ef")
-	)
-	(wire
-		(pts
 			(xy 115.57 39.37) (xy 125.73 39.37)
 		)
 		(stroke
@@ -2720,16 +2682,6 @@
 			(type default)
 		)
 		(uuid "b03238d0-944e-42c5-a696-d4936a6684f9")
-	)
-	(wire
-		(pts
-			(xy 123.19 85.09) (xy 123.19 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0fb84f1-a8e3-4396-bcfb-8d2b5ddecdd6")
 	)
 	(wire
 		(pts
@@ -2843,16 +2795,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 93.98) (xy 134.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94ec485-4645-4023-ad09-cbe18c75df9c")
-	)
-	(wire
-		(pts
 			(xy 76.2 39.37) (xy 88.9 39.37)
 		)
 		(stroke
@@ -2883,23 +2825,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 116.84 85.09)
+			(xy 116.84 82.55) (xy 116.84 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "deaf82ba-0a6e-4f09-ba72-9b4b8a0f1462")
-	)
-	(wire
-		(pts
-			(xy 116.84 85.09) (xy 123.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e44b8254-2d72-45b2-ba27-8f3d0435f1e2")
 	)
 	(wire
 		(pts
@@ -2923,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 77.47) (xy 134.62 76.2)
+			(xy 123.19 77.47) (xy 123.19 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2940,16 +2872,6 @@
 			(type default)
 		)
 		(uuid "fa0033cf-2951-45fd-8626-ea3c98d6b239")
-	)
-	(wire
-		(pts
-			(xy 116.84 85.09) (xy 116.84 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa115e79-47de-4753-81d2-8f6d784754b2")
 	)
 	(label "VC"
 		(at 125.73 33.02 270)
@@ -4303,7 +4225,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 137.16 85.09 0)
+		(at 125.73 85.09 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4313,7 +4235,7 @@
 		(dnp no)
 		(uuid "62730edb-592e-42d0-9357-c6c7a6105e26")
 		(property "Reference" "U3"
-			(at 138.43 84.836 0)
+			(at 127 84.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4323,7 +4245,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 138.176 87.122 0)
+			(at 126.746 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4333,7 +4255,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 85.09 0)
+			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4344,7 +4266,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 137.16 85.09 0)
+			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4355,7 +4277,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 137.16 85.09 0)
+			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,87 +4396,6 @@
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 123.19 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6924f0c9-b318-45ea-a404-f2d172d8f5d6")
-		(property "Reference" "CE10"
-			(at 122.682 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 128.524 82.296 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
-			(at 124.1552 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 123.19 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5352d7f6-1ff2-4a9d-bf2b-45a44125896f")
-		)
-		(pin "2"
-			(uuid "5143d7f0-7cd6-4422-a429-d4f15c9cd9f6")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
-					(reference "CE10")
 					(unit 1)
 				)
 			)
@@ -4987,7 +4828,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 85.09 90)
+		(at 116.84 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4997,7 +4838,7 @@
 		(dnp no)
 		(uuid "819c9cbd-588b-496d-bcd9-32e6802e01f2")
 		(property "Reference" "#PWR052"
-			(at 130.81 85.09 0)
+			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5008,7 +4849,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 82.55 90)
+			(at 115.57 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,7 +4861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 85.09 0)
+			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5031,7 +4872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 85.09 0)
+			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5042,7 +4883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 85.09 0)
+			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,87 +4900,6 @@
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 123.19 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83b9a60c-9028-415f-bb47-13d87d3d2891")
-		(property "Reference" "CE9"
-			(at 122.682 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100u"
-			(at 128.524 92.456 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
-			(at 124.1552 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 123.19 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a1c0b0e-3ca6-4f07-ab49-4e2158212b45")
-		)
-		(pin "2"
-			(uuid "c749184e-cad4-45d5-be7b-b664fc73a7d0")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
-					(reference "CE9")
 					(unit 1)
 				)
 			)
@@ -5895,7 +5655,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 114.046 86.106 90)
+			(at 114.046 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6453,7 +6213,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 114.046 81.026 90)
+			(at 114.046 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
