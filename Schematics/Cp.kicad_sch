@@ -2855,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 82.55) (xy 55.88 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579f69d9-2729-4a77-a7b4-0b1f30a7412e")
-	)
-	(wire
-		(pts
 			(xy 72.39 99.06) (xy 74.93 99.06)
 		)
 		(stroke
@@ -4415,7 +4405,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_248BH-249BH_Single_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal"
 			(at 36.83 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4858,7 +4848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical_Hole"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-H2,5_Horizontal"
 			(at 160.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +5044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_ACP_CA9-VSMD_Vertical_Hole"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
 			(at 162.56 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8070,7 +8060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011AQN_DPDT_Angled"
 			(at 77.47 104.14 0)
 			(hide yes)
 			(show_name no)

@@ -4254,7 +4254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4514,7 +4514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
 			(at 50.8 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4938,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_BL-FL7680RGB"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z6.0mm"
 			(at 154.94 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5664,7 +5664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
 			(at 114.3 86.6648 0)
 			(hide yes)
 			(show_name no)
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
 			(at 114.3 81.5848 0)
 			(hide yes)
 			(show_name no)
