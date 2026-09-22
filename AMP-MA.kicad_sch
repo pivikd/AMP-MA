@@ -470,6 +470,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2296,7 +2521,7 @@
 	)
 	(rectangle
 		(start 97.79 54.61)
-		(end 165.1 101.6)
+		(end 170.18 101.6)
 		(radius 4.064)
 		(stroke
 			(width 0.381)
@@ -2449,6 +2674,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56aa0d82-6715-47ac-9e6e-9ea67cdce420")
+	)
+	(junction
+		(at 158.75 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a4e2be2-0687-4c68-9646-0d6080e361a2")
 	)
 	(junction
 		(at 67.31 92.71)
@@ -2708,6 +2939,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 67.31) (xy 158.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109679f4-65bf-4a1c-b425-364dbad7a0f1")
+	)
+	(wire
+		(pts
 			(xy 115.57 31.75) (xy 115.57 29.21)
 		)
 		(stroke
@@ -2935,6 +3176,16 @@
 			(type default)
 		)
 		(uuid "352e025f-f7fd-4bab-b595-6a9362a95a5a")
+	)
+	(wire
+		(pts
+			(xy 154.94 62.23) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364454cb-f0e3-44aa-b1f0-7baba88fc08f")
 	)
 	(wire
 		(pts
@@ -3215,6 +3466,16 @@
 			(type default)
 		)
 		(uuid "5d639355-e3ba-4537-ae55-0e98f77c1af0")
+	)
+	(wire
+		(pts
+			(xy 158.75 73.66) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "623f11ef-33df-462e-8763-2901a39758c6")
 	)
 	(wire
 		(pts
@@ -3908,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 67.31) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dffd468c-7ef2-4459-8d60-45f037521953")
+	)
+	(wire
+		(pts
 			(xy 29.21 73.66) (xy 27.94 73.66)
 		)
 		(stroke
@@ -4058,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 67.31) (xy 153.67 73.66)
+			(xy 158.75 64.77) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4138,7 +4409,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 67.31) (xy 153.67 67.31)
+			(xy 160.02 64.77) (xy 158.75 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4175,6 +4446,200 @@
 			(type default)
 		)
 		(uuid "ff3d2673-c180-4a40-8aab-2f9585aacc01")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 9.525 6.35)
+		(row_heights 2.54 2.54 2.54 2.54 2.54)
+		(uuid "79762faf-8f1a-4cf1-adb3-c13d7f082c40")
+		(cells
+			(table_cell "R62 KΩ"
+				(exclude_from_sim no)
+				(at 174.625 80.645 0)
+				(size 9.525 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "75c18fc7-a377-4f05-95ee-9ff9c8b35e8e")
+			)
+			(table_cell "Wt"
+				(exclude_from_sim no)
+				(at 184.15 80.645 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "22c5db83-706f-43d3-a9a3-cb6c60dbe915")
+			)
+			(table_cell "16"
+				(exclude_from_sim no)
+				(at 174.625 83.185 0)
+				(size 9.525 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+				(uuid "6f4321f0-a590-4b3e-8f71-e9ebb456915a")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 184.15 83.185 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ff6f07cf-baff-4c33-af38-a5245d969f81")
+			)
+			(table_cell "20"
+				(exclude_from_sim no)
+				(at 174.625 85.725 0)
+				(size 9.525 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+				(uuid "b0ef6c16-a3fd-4257-8f07-b97aedb01922")
+			)
+			(table_cell "8.8"
+				(exclude_from_sim no)
+				(at 184.15 85.725 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9d960d37-a8aa-42db-8d66-fe93403db009")
+			)
+			(table_cell "22"
+				(exclude_from_sim no)
+				(at 174.625 88.265 0)
+				(size 9.525 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+				(uuid "f133fa48-ac26-403d-9799-41d332b0f077")
+			)
+			(table_cell "11"
+				(exclude_from_sim no)
+				(at 184.15 88.265 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "db3d5155-cd0b-41e0-994d-4d266f0901d0")
+			)
+			(table_cell "25"
+				(exclude_from_sim no)
+				(at 174.625 90.805 0)
+				(size 9.525 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right top)
+				)
+				(uuid "c2f3b92b-4ea1-479f-9ad2-493828cda0fb")
+			)
+			(table_cell "13.5"
+				(exclude_from_sim no)
+				(at 184.15 90.805 0)
+				(size 6.35 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6ac6e615-5af6-474f-a3e1-55b5187fd493")
+			)
+		)
 	)
 	(label "LM_IN+"
 		(at 118.11 128.27 90)
@@ -4327,7 +4792,7 @@
 		(uuid "c402a1d7-caa8-4172-9a83-98c11bddba79")
 	)
 	(label "LM_OUT"
-		(at 144.78 73.66 0)
+		(at 148.59 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4529,7 +4994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+		(property "Footprint" "PrLib:potentiometer"
 			(at 78.74 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4624,7 +5089,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09375b02-a6b9-462a-8f3f-6698733b81ee")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 43.18 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,7 +5153,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4706,7 +5171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17d32983-042d-46b6-bc80-7ea53d98a42b")
-		(property "Reference" "R47"
+		(property "Reference" "R63"
 			(at 106.68 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4770,7 +5235,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R47")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -4807,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 125.73 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -5130,7 +5595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 44.7548 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5190,7 +5655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c80c2dc-10ba-4dc1-a9b6-36f5c7142985")
-		(property "Reference" "R52"
+		(property "Reference" "R60"
 			(at 154.94 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,7 +5719,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R52")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 39.37 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -5532,7 +5997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 125.73 43.4848 0)
 			(hide yes)
 			(show_name no)
@@ -5843,7 +6308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "497e31a1-401c-4b5b-951f-7d10c73eaa89")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 39.37 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,7 +6372,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6029,7 +6494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 57.15 28.2448 0)
 			(hide yes)
 			(show_name no)
@@ -6157,6 +6622,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 149.86 64.77 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51b868a5-d0de-408c-aa66-27414b7609dc")
+		(property "Reference" "J9"
+			(at 155.956 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Socket_01x03"
+			(at 150.622 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 149.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 149.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d990106-3c61-4540-8e98-9bf6d4650be8")
+		)
+		(pin "1"
+			(uuid "53b4d2c1-e452-46ee-8027-2677120f9a46")
+		)
+		(pin "3"
+			(uuid "2182d68b-ba90-4b98-874b-883c33bdcdf4")
+		)
+		(instances
+			(project "AMP-MA"
+				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 87.63 180)
 		(unit 1)
@@ -6189,7 +6736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 59.9948 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6270,7 +6817,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 127.9652 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6529,7 +7076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 44.7548 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6608,7 +7155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 39.37 35.8648 0)
 			(hide yes)
 			(show_name no)
@@ -6769,7 +7316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+		(property "Footprint" "PrLib:potentiometer"
 			(at 78.74 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6978,7 +7525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 58.7248 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7118,7 +7665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a031f2-583c-419f-a485-230618a0733e")
-		(property "Reference" "R46"
+		(property "Reference" "R21"
 			(at 33.782 113.538 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7182,7 +7729,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R46")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7200,7 +7747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75a80fbb-3a10-4db7-b83c-e4dd81a447dc")
-		(property "Reference" "R38"
+		(property "Reference" "R12"
 			(at 67.31 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7811,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R38")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75eb7879-7e60-4831-886c-a27dcf65fa9a")
-		(property "Reference" "R45"
+		(property "Reference" "R17"
 			(at 68.58 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7893,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R45")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7383,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 156.21 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7460,8 +8007,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86613eca-ae96-4c77-a5b7-c7356f683322")
-		(property "Reference" "R50"
-			(at 135.382 93.218 90)
+		(property "Reference" "R62"
+			(at 135.128 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7471,7 +8018,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "22K"
 			(at 135.128 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +8071,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R50")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -7621,7 +8168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f882a0-7c64-4ec3-a873-406b26b883af")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 53.34 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,7 +8232,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7702,7 +8249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8af678c3-c7b3-4001-b3eb-f2485cace1c0")
-		(property "Reference" "R44"
+		(property "Reference" "R16"
 			(at 54.61 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +8313,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R44")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7862,7 +8409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "901724b7-6623-4fdb-840c-aa88ad6a4f2a")
-		(property "Reference" "R48"
+		(property "Reference" "R55"
 			(at 112.522 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7924,7 +8471,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R48")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -7961,7 +8508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 125.73 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -8021,7 +8568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99216951-afcb-49ec-9ccd-2714edd37601")
-		(property "Reference" "R49"
+		(property "Reference" "R64"
 			(at 116.84 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,7 +8632,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R49")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -8122,7 +8669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 154.6352 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8181,7 +8728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a112d946-3a24-4618-9be2-e7a730654009")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 43.18 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8245,7 +8792,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8285,7 +8832,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 127.3048 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8344,7 +8891,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6cbbe95-ca0f-4b86-a766-b27f3bd5ac00")
-		(property "Reference" "R40"
+		(property "Reference" "R15"
 			(at 39.37 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8408,7 +8955,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R40")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8581,7 +9128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 64.77 270)
+		(at 154.94 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8592,7 +9139,7 @@
 		(fields_autoplaced yes)
 		(uuid "af8faf07-aa04-4dbc-a3cc-0c196b708323")
 		(property "Reference" "#PWR047"
-			(at 148.59 64.77 0)
+			(at 161.29 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,7 +9150,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 64.77 0)
+			(at 160.02 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +9381,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4b03277-3df9-4e4e-923b-1d7be15ed8a8")
-		(property "Reference" "R39"
+		(property "Reference" "R22"
 			(at 33.782 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8898,7 +9445,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R39")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8935,7 +9482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 57.15 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -8994,7 +9541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be6ab889-b297-4640-9c0c-91ab97808e3f")
-		(property "Reference" "R42"
+		(property "Reference" "R18"
 			(at 43.18 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,7 +9605,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R42")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9097,7 +9644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+		(property "Footprint" "PrLib:potentiometer"
 			(at 133.35 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9283,7 +9830,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
+		(property "Value" "Socket_01x05"
 			(at 120.65 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,7 +9840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -9381,7 +9928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 116.84 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -9431,7 +9978,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 160.02 64.77 0)
+		(at 165.1 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9441,7 +9988,7 @@
 		(dnp no)
 		(uuid "ce6b9a96-43ff-4162-a15d-e027d5620fb8")
 		(property "Reference" "LS1"
-			(at 152.908 59.69 0)
+			(at 163.068 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9452,7 +9999,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 152.654 61.468 0)
+			(at 158.75 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9463,7 +10010,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 160.02 69.85 0)
+			(at 165.1 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9474,7 +10021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.766 66.04 0)
+			(at 164.846 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9485,7 +10032,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 160.02 64.77 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9623,7 +10170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+		(property "Footprint" "PrLib:potentiometer"
 			(at 133.35 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9799,7 +10346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9930e53-481f-400b-95cc-8b41cad06cbb")
-		(property "Reference" "R54"
+		(property "Reference" "R20"
 			(at 59.182 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9863,7 +10410,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R54")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9880,7 +10427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da99b18a-20cb-4bb7-9c05-f670b8f700a7")
-		(property "Reference" "R41"
+		(property "Reference" "R19"
 			(at 43.18 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9944,7 +10491,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R41")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9984,7 +10531,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal"
+		(property "Footprint" "PrLib:potentiometer"
 			(at 133.35 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10099,7 +10646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 73.66 28.2448 0)
 			(hide yes)
 			(show_name no)
@@ -10159,7 +10706,7 @@
 		(dnp no)
 		(uuid "ea93e9f6-1584-4ac3-b72b-11a6a6742300")
 		(property "Reference" "U2"
-			(at 139.7 69.342 0)
+			(at 139.446 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10169,7 +10716,7 @@
 			)
 		)
 		(property "Value" "LM1875"
-			(at 141.986 71.12 0)
+			(at 141.986 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10432,7 +10979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
 			(at 73.66 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -10570,7 +11117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fad8ac82-f1ce-48b5-ade8-8ba1df05fac8")
-		(property "Reference" "R51"
+		(property "Reference" "R61"
 			(at 112.268 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10634,7 +11181,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "R51")
+					(reference "R61")
 					(unit 1)
 				)
 			)

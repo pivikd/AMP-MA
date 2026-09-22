@@ -1,0 +1,137 @@
+(footprint "connector"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "7a3313c5-bff1-490d-a33c-f2e5377c97a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "connector"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88250b76-45fc-4c54-9dee-a0e8887471a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ef5934a-dcc5-4c9b-8af2-5437fad4be21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a790fc2e-c3d4-46c6-b0fd-e165ed87e11f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.5 -2)
+		(end -4.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8ab2556b-0ea6-4edb-b424-4bbe78764c11")
+	)
+	(fp_line
+		(start 4.5 -2)
+		(end -4.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d81d2c-64c4-4115-ae5d-d21b457fec23")
+	)
+	(fp_line
+		(start 4.5 2)
+		(end -4.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "84117e9c-088d-4754-acbf-dab34314e178")
+	)
+	(fp_line
+		(start 4.5 2)
+		(end 4.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44cfd0a0-b2fa-4525-9213-22a0795fd5bd")
+	)
+	(fp_rect
+		(start -4.75 -2.25)
+		(end 4.75 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "22e48793-ceac-4244-87c0-4f83b24563b8")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d095799d-83dd-4636-9d53-1cf481219671")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05a1b98e-0327-4429-ab7b-09dfcd96d25d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PrLib/3D/conector.step"
+		(offset
+			(xyz 0 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
