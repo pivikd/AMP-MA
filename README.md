@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0_PrA%20(PREALPHA)-orange">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0_BETA-orange">
    <img alt="Static Badge" src="https://img.shields.io/badge/License-GPL--3.0-blue">
 </p><p align="center">
    <img alt="Static Badge" src="https://img.shields.io/badge/Made_with-ARCH-1793D1?style=flat&logo=archlinux&logoColor=%231793D1">
@@ -47,6 +47,6 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
 ## Integrated Effects Modules
 |       Effect      |   based on   |  Satus  |
 |-------------------|--------------|---------|
-| Compressor        | Ibanez CP835 |  dev    |
-| Over Drive        | Boss OD3     | planed  |
-| Chorus            | Boss Ch1     | planed  |
+| Compressor        | Ibanez CP835 |  done   |
+<!-- | Over Drive        | Boss OD3     | planed  |
+| Chorus            | Boss Ch1     | planed  | -->
