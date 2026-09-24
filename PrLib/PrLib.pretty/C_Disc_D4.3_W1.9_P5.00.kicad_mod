@@ -1,0 +1,139 @@
+(footprint "C_Disc_D4.3_W1.9_P5.00"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+	(tags "C Disc series Radial pin pitch 5.00mm diameter 4.3mm width 1.9mm Capacitor")
+	(property "Reference" "REF**"
+		(at 1.5 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "214c8d0b-3610-4caa-976c-479da2eb6890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Disc_D3.8_W1.9_P3.00"
+		(at 1.5 2 0)
+		(layer "F.Fab")
+		(uuid "61dea6cd-277b-418b-a52e-ba52010b82dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58773156-7f8a-4bdf-a8b3-ccbc5b55e7ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3b8947-62fe-4e81-bb67-6ea8a17c07b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "capacitor/THT/other"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c68553df-cd02-4cd5-9baf-600c6ab30d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1 -1.1)
+		(end 4 1.1)
+		(radius 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f6add4ac-9e9d-48e0-aa62-2ac678f47c82")
+	)
+	(fp_rect
+		(start -1.1 -1.2)
+		(end 4.1 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "62d3f464-f190-4c64-9869-abcf64f70ae5")
+	)
+	(fp_rect
+		(start 0.35 -0.95)
+		(end 2.6 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "65ead9ab-00d2-4088-9452-0a475c4bb197")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.5 0 0)
+		(layer "F.Fab")
+		(uuid "57dc7a39-02e3-41bf-af31-d3c29b46b3ba")
+		(effects
+			(font
+				(size 0.86 0.86)
+				(thickness 0.129)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cda37478-364e-4a7c-ab57-6297b9ff1072")
+	)
+	(pad "2" thru_hole circle
+		(at 3 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b6046a9-f732-47fb-919c-8b671d90b328")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/PrLib/3D/C_disc_D3.8_W1.8_P3.step"
+		(offset
+			(xyz 1.5 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

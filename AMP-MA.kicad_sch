@@ -9622,7 +9622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2e9c165-8f01-4d05-b05e-0c71ca743b1a")
-		(property "Reference" "RBass1"
+		(property "Reference" "Bass1"
 			(at 132.08 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9722,7 +9722,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "RBass1")
+					(reference "Bass1")
 					(unit 1)
 				)
 			)
@@ -10148,7 +10148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d72ac304-13a6-43e4-8d42-e19fdb716c13")
-		(property "Reference" "RTreble1"
+		(property "Reference" "Treble1"
 			(at 132.08 24.13 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10248,7 +10248,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "RTreble1")
+					(reference "Treble1")
 					(unit 1)
 				)
 			)
@@ -10509,7 +10509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e55ea8a0-a078-41c3-9fea-823352764d8a")
-		(property "Reference" "RMiddle1"
+		(property "Reference" "Middle1"
 			(at 134.62 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10609,7 +10609,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e"
-					(reference "RMiddle1")
+					(reference "Middle1")
 					(unit 1)
 				)
 			)

@@ -94,7 +94,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|137890000|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|aa991ec4-1cbc-436b-9925-b1f7ca091d70",
+          "silk_edge_clearance|138500000|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|aa991ec4-1cbc-436b-9925-b1f7ca091d70",
           ""
         ],
         [
@@ -130,11 +130,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|232380000|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|d6347167-dbde-4ecf-8aa1-502003f9459c",
+          "silk_edge_clearance|232000000|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|abf65992-56f9-47db-9ba3-dfe1563789d9",
           ""
         ],
         [
-          "silk_edge_clearance|239620000|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|66c2383f-338e-4ebf-b3f2-e9d075fd4d7b",
+          "silk_edge_clearance|240000000|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|bc15e655-03d2-4dc9-8b7c-1054adfb48f7",
           ""
         ],
         [
@@ -783,7 +783,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "J1-2,J8-9,U2,U5,SW1,#PWR8,D5,R27",
+    "used_designators": "J1-2,J8-9,U2,U5,SW1,LEVEL1,#PWR8,D5,R27",
     "variants": []
   },
   "sheets": [
