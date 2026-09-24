@@ -176,7 +176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PrLib:Jack_3_6pin"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -388,7 +388,7 @@
 						)
 					)
 				)
-				(number "R1"
+				(number "R"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -406,7 +406,7 @@
 						)
 					)
 				)
-				(number "RN1"
+				(number "RN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -424,7 +424,7 @@
 						)
 					)
 				)
-				(number "S1"
+				(number "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -442,7 +442,7 @@
 						)
 					)
 				)
-				(number "SN1"
+				(number "SN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -460,7 +460,7 @@
 						)
 					)
 				)
-				(number "T1"
+				(number "T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -478,7 +478,7 @@
 						)
 					)
 				)
-				(number "TN1"
+				(number "TN"
 					(effects
 						(font
 							(size 1.27 1.27)
