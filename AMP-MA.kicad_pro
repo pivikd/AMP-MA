@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.8,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 0,
@@ -126,7 +126,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|232000000|79000000|77f4fb3f-28cf-415f-8256-1d238326d5b1|a3c23716-be6e-47e8-9a3c-eaa36f573968",
+          "silk_edge_clearance|232000000|80670000|77f4fb3f-28cf-415f-8256-1d238326d5b1|a3c23716-be6e-47e8-9a3c-eaa36f573968",
           ""
         ],
         [
