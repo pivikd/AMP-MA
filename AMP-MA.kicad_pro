@@ -160,22 +160,6 @@
         [
           "silk_edge_clearance|96494999|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|66c7875f-0f88-449a-91bb-a2534ca09d50",
           ""
-        ],
-        [
-          "silk_overlap|109720000|64170000|0db8653a-9aa3-4f7b-b81c-4f3e1376d532|5a5aabec-36e5-4d0c-9ac1-bb9a56941b00",
-          ""
-        ],
-        [
-          "silk_overlap|110735000|65185000|5a5aabec-36e5-4d0c-9ac1-bb9a56941b00|ed8da9f1-d7fe-4a66-b375-2e54c25b5ee6",
-          ""
-        ],
-        [
-          "silk_overlap|174390000|100235000|63a18037-96ad-4da9-a3b5-6ea572d09a17|9f8003cc-7eca-4c62-afda-76e2e70026ff",
-          ""
-        ],
-        [
-          "silk_overlap|174390000|100235000|9f8003cc-7eca-4c62-afda-76e2e70026ff|f624b171-223d-416b-bc01-8a8c045ecade",
-          ""
         ]
       ],
       "meta": {
