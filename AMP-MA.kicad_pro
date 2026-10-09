@@ -595,7 +595,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -606,11 +606,89 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "220V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.6,
+        "name": "HSignal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 1.4,
+        "via_drill": 1.0
+      },
+      {
+        "name": "HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 1.2,
+        "via_drill": 0.8
+      },
+      {
+        "clearance": 0.2,
+        "name": "LOGIC",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.25,
+        "name": "LowSignal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.25,
+        "name": "VB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.3,
+        "name": "VC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "name": "VMu",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -618,7 +696,76 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "VMu",
+        "pattern": "VMu"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "VEE"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "HSignal",
+        "pattern": "/LM_OUT"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/BP_OUT"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/EFF_OUT"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/Q9_3"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/Q8_3"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/Q10_3"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/Q11_3"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/SW_A"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/SW_C"
+      },
+      {
+        "netclass": "LOGIC",
+        "pattern": "/*/BIAS"
+      },
+      {
+        "netclass": "VB",
+        "pattern": "VB"
+      },
+      {
+        "netclass": "VC",
+        "pattern": "VC"
+      },
+      {
+        "netclass": "LowSignal",
+        "pattern": "/PREAMP*"
+      },
+      {
+        "netclass": "LowSignal",
+        "pattern": "/U3_3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
