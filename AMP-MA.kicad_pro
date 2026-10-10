@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.8,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 0,
@@ -126,7 +126,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|232000000|80670000|77f4fb3f-28cf-415f-8256-1d238326d5b1|a3c23716-be6e-47e8-9a3c-eaa36f573968",
+          "silk_edge_clearance|232000000|79000000|77f4fb3f-28cf-415f-8256-1d238326d5b1|a3c23716-be6e-47e8-9a3c-eaa36f573968",
           ""
         ],
         [
@@ -159,6 +159,22 @@
         ],
         [
           "silk_edge_clearance|96494999|140000000|59964599-3cc8-4ebb-88f4-c1a8b21a7ab3|66c7875f-0f88-449a-91bb-a2534ca09d50",
+          ""
+        ],
+        [
+          "silk_overlap|109720000|64170000|0db8653a-9aa3-4f7b-b81c-4f3e1376d532|5a5aabec-36e5-4d0c-9ac1-bb9a56941b00",
+          ""
+        ],
+        [
+          "silk_overlap|110735000|65185000|5a5aabec-36e5-4d0c-9ac1-bb9a56941b00|ed8da9f1-d7fe-4a66-b375-2e54c25b5ee6",
+          ""
+        ],
+        [
+          "silk_overlap|174390000|100235000|63a18037-96ad-4da9-a3b5-6ea572d09a17|9f8003cc-7eca-4c62-afda-76e2e70026ff",
+          ""
+        ],
+        [
+          "silk_overlap|174390000|100235000|9f8003cc-7eca-4c62-afda-76e2e70026ff|f624b171-223d-416b-bc01-8a8c045ecade",
           ""
         ]
       ],
@@ -595,7 +611,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.22,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -606,92 +622,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 4.0,
-        "name": "220V",
-        "pcb_color": "rgb(204, 102, 0)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 0.6,
-        "name": "HSignal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 1.4,
-        "via_drill": 1.0
-      },
-      {
-        "clearance": 0.4,
-        "name": "HV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.8
-      },
-      {
-        "clearance": 0.2,
-        "name": "LOGIC",
-        "pcb_color": "rgb(0, 194, 0)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.45,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.2,
-        "name": "LowSignal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 0.25,
-        "name": "VB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.3,
-        "name": "VC",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "name": "VMu",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -699,84 +634,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "VMu",
-        "pattern": "VMu"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "VEE"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "HSignal",
-        "pattern": "/LM_OUT"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/BP_OUT"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/EFF_OUT"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/Q9_3"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/Q8_3"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/Q10_3"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/Q11_3"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/SW_A"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/SW_C"
-      },
-      {
-        "netclass": "LOGIC",
-        "pattern": "/*/BIAS"
-      },
-      {
-        "netclass": "VB",
-        "pattern": "VB"
-      },
-      {
-        "netclass": "VC",
-        "pattern": "VC"
-      },
-      {
-        "netclass": "LowSignal",
-        "pattern": "/PREAMP*"
-      },
-      {
-        "netclass": "LowSignal",
-        "pattern": "/U3_3"
-      },
-      {
-        "netclass": "220V",
-        "pattern": "Net-(J3-*"
-      },
-      {
-        "netclass": "220V",
-        "pattern": "Net-(J4-Pin_1)"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {

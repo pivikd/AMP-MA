@@ -1,5 +1,5 @@
 <p align="center">
-   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0.0.1_BETA-orange">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Version-V0_BETA-orange">
    <img alt="Static Badge" src="https://img.shields.io/badge/License-GPL--3.0-blue">
 </p><p align="center">
    <img alt="Static Badge" src="https://img.shields.io/badge/Made_with-ARCH-1793D1?style=flat&logo=archlinux&logoColor=%231793D1">
@@ -18,15 +18,15 @@ AMP-AM (standing for Modus Aequale, signifying a rhythmic, ideal tone and modula
 
 The project focuses on a modular architecture, originally developed as a high-fidelity upgrade for the **Epiphone 15C** PCB. By utilizing independent blocks, AMP-AM allows for seamless customization and easier adaptation to various amp enclosures.
 
-This project is designed and maintained by: [Danylo Pyvovarov](https://github.com/pivikd).
+This project is designed and maintained by: [Danylo Pyvovarov](https://github.com/pivikn).
 
 
    1. [Key Features](#key-features)
    1. [Signal Chain](#signal-chain)
-   <!-- 1. [Integrated Effects Modules](#integrated-effects-modules) -->
+   1. [Integrated Effects Modules](#integrated-effects-modules)
 
 ## Key Features
-   - **Tube-like Architecture**: Uses **Mu-amp**  based cascades with **2SK30A**  transistors to achieve a warm, organic sound and harmonic saturation that mimics vacuum tube behavior.
+   - **Tube-like Architecture**: Uses **Mu-amp** stages to achieve a warm, organic sound and harmonicsaturation that mimics vacuum tube behavior.
 
    - **Dual Input Support**: Designed to handle two guitars simultaneously.
 
@@ -34,7 +34,7 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
 
    - **Integrated Compression**: Built-in compressor block based on the vintage **Ibanez CP835** circuitry.
 
-   <!-- - **Modular Design**: Optimized for easy integration into different amp cabinets or for swapping internal effect modules. -->
+   - **Modular Design**: Optimized for easy integration into different amp cabinets or for swapping internal effect modules.
 
 ## Signal Chain
    1. Input buffer
@@ -44,9 +44,9 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
    1. Recovery Stage
    1. Power Amp ([LM1875](https://www.ti.com/lit/ds/symlink/lm1875.pdf))
 
-<!-- ## Integrated Effects Modules
+## Integrated Effects Modules
 |       Effect      |   based on   |  Satus  |
 |-------------------|--------------|---------|
 | Compressor        | Ibanez CP835 |  done   |
 <!-- | Over Drive        | Boss OD3     | planed  |
-| Chorus            | Boss Ch1     | planed  | --> 
+| Chorus            | Boss Ch1     | planed  | -->
