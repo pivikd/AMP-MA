@@ -11712,7 +11712,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "50fcec93-e12d-4852-998b-ff512e6cbf1d")
-		(property "Sheetname" "power supply"
+		(property "Sheetname" "Power Supply"
 			(at 198.12 20.8784 0)
 			(show_name no)
 			(do_not_autoplace no)

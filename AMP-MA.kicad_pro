@@ -937,7 +937,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "H1-3,R27,D5,GND1,#PWR8,#PWR53,LEVEL1,SW1,U2,U5,J1-2,J8-9",
+    "used_designators": "CE9-11,H1-3,R8-9,R23,R27,C18-19,D2,D5-10,GND1,#PWR5,#PWR8-9,#PWR13,#PWR27,#PWR29,#PWR52-56,LEVEL1,SW1,U2,U5,J1-2,J8-9",
     "variants": []
   },
   "sheets": [
@@ -947,7 +947,7 @@
     ],
     [
       "50fcec93-e12d-4852-998b-ff512e6cbf1d",
-      "power supply"
+      "Power Supply"
     ],
     [
       "d432553b-ab0c-45ec-bbdd-5af2e9267855",
