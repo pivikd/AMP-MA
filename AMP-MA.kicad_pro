@@ -718,11 +718,11 @@
       },
       {
         "netclass": "LOGIC",
-        "pattern": "/*/BP_OUT"
+        "pattern": "/*/OFF"
       },
       {
         "netclass": "LOGIC",
-        "pattern": "/*/EFF_OUT"
+        "pattern": "/*/ON"
       },
       {
         "netclass": "LOGIC",
@@ -937,7 +937,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "CE9-11,H1-3,R8-9,R23,R27,C18-19,D2,D5-10,GND1,#PWR5,#PWR8-9,#PWR13,#PWR27,#PWR29,#PWR52-56,LEVEL1,SW1,U2,U5,J1-2,J8-9",
+    "used_designators": "CE9-11,H1-3,R8-9,R23,R27,C18-19,D2,D5-10,D30,GND1,#PWR5,#PWR8-9,#PWR13,#PWR25,#PWR27,#PWR29,#PWR52-56,LEVEL1,Sustain1,SW1,Q9-12,U2,U5,J1-2,J8-9",
     "variants": []
   },
   "sheets": [

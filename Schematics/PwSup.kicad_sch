@@ -7575,7 +7575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f00409-e40b-4571-bb6a-675947acf271")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 95.25 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7637,7 +7637,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
