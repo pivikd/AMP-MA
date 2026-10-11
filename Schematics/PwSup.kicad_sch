@@ -4411,7 +4411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "436a4c94-6b6e-47f7-8961-0634520d813d")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 168.91 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4491,7 +4491,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/50fcec93-e12d-4852-998b-ff512e6cbf1d"
-					(reference "U3")
+					(reference "U1")
 					(unit 3)
 				)
 			)
