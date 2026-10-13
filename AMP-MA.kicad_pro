@@ -564,7 +564,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -573,7 +573,7 @@
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
       "stacked_pin_name": "warning",
-      "unannotated": "error",
+      "unannotated": "warning",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
@@ -790,10 +790,10 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 49,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -905,7 +905,7 @@
       "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -937,7 +937,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "CE9-11,H1-3,R8-9,R23-24,R27,C18-19,D2,D5-10,D30,GND1,#PWR5,#PWR8-9,#PWR13,#PWR25,#PWR27,#PWR29,#PWR51-57,LEVEL1,Sustain1,SW1,SW3,Q9-12,U2,U5,J1-2,J8-9",
+    "used_designators": "CE9-11,JP52.D50,LEVEL1-2,LEVEL40-41,U2,U5-6,D2,D5-11,D30,D33-34,C9,C18-19,C24-27,C32,C37-46,C50-55,Middle1,Middle50,SW1,SW3,Treble1,Treble50,Q9-16,Q40-42,Sustain1-2,Bass1,Bass50,RV2,RV50,H1-3,J1-2,J8-9,JP52D50,JP40,JP50-54,R8-9,R23-24,R27,R41-59,R65-67,GND1,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR51-65",
     "variants": []
   },
   "sheets": [
@@ -952,6 +952,10 @@
     [
       "d432553b-ab0c-45ec-bbdd-5af2e9267855",
       "Compression block"
+    ],
+    [
+      "f803cc2a-45bd-4029-aa56-0c7cd35c7800",
+      "Tone Stack"
     ]
   ],
   "text_variables": {},

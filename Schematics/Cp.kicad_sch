@@ -3470,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 121.92 88.9)
+			(xy 123.19 87.63) (xy 123.19 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3490,7 +3490,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 73.66) (xy 121.92 80.01)
+			(xy 123.19 73.66) (xy 123.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3770,7 +3770,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 118.11 92.71)
+			(xy 115.57 92.71) (xy 119.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4239,7 +4239,7 @@
 		(uuid "b757bdc8-8c0e-4119-a446-c399fb2b2e11")
 	)
 	(label "CP_IN"
-		(at 121.92 73.66 270)
+		(at 123.19 73.66 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4574,7 +4574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 134.62 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -4661,7 +4661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07f69312-43aa-4c79-9940-ce04d74fc22d")
-		(property "Reference" "C20"
+		(property "Reference" "C44"
 			(at 108.712 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4723,7 +4723,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "C20")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -5120,7 +5120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+		(property "Footprint" "PrLib:potentiometer"
 			(at 158.75 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5457,7 +5457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 121.92 92.71 180)
+		(at 123.19 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5467,7 +5467,7 @@
 		(dnp no)
 		(uuid "290443a4-392a-430d-a146-43d89fad7a8f")
 		(property "Reference" "LEVEL1"
-			(at 113.792 94.488 0)
+			(at 115.062 94.488 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5478,7 +5478,7 @@
 			)
 		)
 		(property "Value" "100KB"
-			(at 124.206 95.758 90)
+			(at 125.476 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5489,7 +5489,7 @@
 			)
 		)
 		(property "Footprint" "PrLib:potentiometer"
-			(at 121.92 92.71 0)
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5500,7 +5500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 92.71 0)
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +5511,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 121.92 92.71 0)
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,7 +5522,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 121.92 92.71 0)
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5533,7 +5533,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 121.92 92.71 0)
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5544,7 +5544,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 121.92 92.71 0)
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,7 +5939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 99.06 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -6026,7 +6026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43fc1cfc-c423-420f-b666-af3637aecf4a")
-		(property "Reference" "C22"
+		(property "Reference" "C43"
 			(at 81.28 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,7 +6090,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "C22")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -6428,7 +6428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f8df429-39cc-4323-ba76-ee345df38324")
-		(property "Reference" "C21"
+		(property "Reference" "C45"
 			(at 65.024 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6492,7 +6492,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "C21")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff85901-a198-4fd4-b494-6848d8625970")
-		(property "Reference" "R50"
+		(property "Reference" "R41"
 			(at 87.63 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6573,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R50")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "691aad9c-e131-4d41-8aef-b780cde9ba11")
-		(property "Reference" "R54"
+		(property "Reference" "R44"
 			(at 105.41 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6911,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R54")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -7000,7 +7000,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 83.82 180)
+		(at 123.19 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7009,8 +7009,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73b16a58-e37b-4da3-9a6d-93dbab2d3e57")
-		(property "Reference" "C36"
-			(at 121.666 81.534 0)
+		(property "Reference" "C41"
+			(at 122.936 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7021,7 +7021,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 121.666 86.106 0)
+			(at 122.936 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7032,7 +7032,7 @@
 			)
 		)
 		(property "Footprint" "PrLib:C_disc_D7_W2.5_P5"
-			(at 120.9548 80.01 0)
+			(at 122.2248 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7043,7 +7043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 83.82 0)
+			(at 123.19 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 83.82 0)
+			(at 123.19 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,7 +7073,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "C36")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -7243,7 +7243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 96.52 0)
+		(at 123.19 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7255,7 +7255,7 @@
 		(fields_autoplaced yes)
 		(uuid "8579ae10-e316-499d-b155-52b260b15f6d")
 		(property "Reference" "#PWR031"
-			(at 121.92 102.87 0)
+			(at 123.19 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7266,7 +7266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 101.6 0)
+			(at 123.19 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7277,7 +7277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 96.52 0)
+			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7288,7 +7288,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 96.52 0)
+			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7299,7 +7299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 96.52 0)
+			(at 123.19 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7434,7 +7434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 152.4 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -7693,7 +7693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fdc8706-5f9a-4f9c-bb82-cf1a4c72317e")
-		(property "Reference" "R52"
+		(property "Reference" "R42"
 			(at 100.33 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7757,7 +7757,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R52")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -8260,7 +8260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1e9ab50-eb75-4e8d-8c88-1374c2d3d5d8")
-		(property "Reference" "Q11"
+		(property "Reference" "Q10"
 			(at 96.52 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +8325,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "Q11")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -8364,7 +8364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 134.62 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -8612,7 +8612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e17d002e-1e0f-4df5-8c4f-4ac80b948dea")
-		(property "Reference" "R53"
+		(property "Reference" "R45"
 			(at 65.786 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8676,7 +8676,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R53")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -8856,7 +8856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e97f460a-283a-4433-b068-83a4bbb1fe8a")
-		(property "Reference" "R51"
+		(property "Reference" "R43"
 			(at 72.39 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +8920,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "R51")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8928,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 45.72 180)
+		(at 158.75 45.72 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8938,7 +8939,7 @@
 		(dnp no)
 		(uuid "ead8e5e7-2dd6-4f6c-9fee-956217bccede")
 		(property "Reference" "R40"
-			(at 157.48 46.99 0)
+			(at 157.48 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8949,7 +8950,7 @@
 			)
 		)
 		(property "Value" "20K"
-			(at 157.48 44.704 0)
+			(at 157.48 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9097,7 +9098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee114b60-2880-42fb-aa94-8760886cc554")
-		(property "Reference" "C23"
+		(property "Reference" "C42"
 			(at 91.186 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9161,7 +9162,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "C23")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9259,7 +9260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5153618-434e-4a7d-98b0-85432648d783")
-		(property "Reference" "Q10"
+		(property "Reference" "Q11"
 			(at 76.2 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9324,7 +9325,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/d432553b-ab0c-45ec-bbdd-5af2e9267855"
-					(reference "Q10")
+					(reference "Q11")
 					(unit 1)
 				)
 			)

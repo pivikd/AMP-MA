@@ -23,14 +23,14 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
 
    1. [Key Features](#key-features)
    1. [Signal Chain](#signal-chain)
-   <!-- 1. [Integrated Effects Modules](#integrated-effects-modules) -->
-
+   1. [Integrated Tone Stacks](#integrated-tone-stacks)
+<!-- 1. [Integrated Effects Modules](#integrated-effects-modules) -->
 ## Key Features
-   - **Tube-like Architecture**: Uses **Mu-amp**  based cascades with **2SK30A**  transistors to achieve a warm, organic sound and harmonic saturation that mimics vacuum tube behavior.
+   - **Tube-like Architecture**: Uses **Mu-amp** based cascades with **2SK30A** transistors to achieve a warm, organic sound and harmonic saturation that mimics vacuum tube behavior.
 
    - **Dual Input Support**: Designed to handle two guitars simultaneously.
 
-   - **Legendary Tone Stack**: Features a 3-band EQ based on the classic **Marshall JCM900 2100 SL-X preamp**.
+   - **Legendary Tone Stacks**: Features a 3-band EQ based on the classic tone stacks([Integrated Tone Stacks](#integrated-tone-stacks)).
 
    - **Integrated Compression**: Built-in compressor block based on the vintage **Ibanez CP835** circuitry.
 
@@ -45,8 +45,17 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
    1. Power Amp ([LM1875](https://www.ti.com/lit/ds/symlink/lm1875.pdf))
 
 <!-- ## Integrated Effects Modules
-|       Effect      |   based on   |  Satus  |
+|       Effect      |   based on   |  Status  |
 |-------------------|--------------|---------|
 | Compressor        | Ibanez CP835 |  done   |
-<!-- | Over Drive        | Boss OD3     | planed  |
-| Chorus            | Boss Ch1     | planed  | --> 
+<!-- | Over Drive        | Boss OD3     | planned  |
+| Chorus            | Boss Ch1     | planned  | --> 
+
+## Integrated Tone Stacks
+   - Fender Treble-Middle-Bass
+   - Marshall JCM900 2100 SL-x
+   - Dumble Rock
+
+      Own:
+   - TS0 (based on Marshall JCM900 2100 SL-x)
+   - TS1 (based on Dumble Rock)
