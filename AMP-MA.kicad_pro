@@ -790,7 +790,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 49,
+    "annotate_start_num": 0,
     "annotation": {
       "method": 0,
       "sort_order": 1
@@ -937,7 +937,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "CE9-11,JP52.D50,LEVEL1-2,LEVEL40-41,U2,U5-6,D2,D5-11,D30,D33-34,C9,C18-19,C24-27,C32,C37-46,C50-55,Middle1,Middle50,SW1,SW3,Treble1,Treble50,Q9-16,Q40-42,Sustain1-2,Bass1,Bass50,RV2,RV50,H1-3,J1-2,J8-9,JP52D50,JP40,JP50-54,R8-9,R23-24,R27,R41-59,R65-67,GND1,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR51-65",
+    "used_designators": "J1-9,JP52D50,JP40,JP50-54,R8-9,R23-24,R27,R41-59,R65-67,GND1,T50,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR47,#PWR51-65,Middle1,Middle50,C9,C18-19,C24-27,C32,C37-46,C50-55,D2,D5-11,D30,D33-34,U2,U5-6,JP52.D50,CE9-11,LEVEL1-2,LEVEL40-41,H1-3,RV2,RV50,Bass1,Bass50,Sustain1-2,SW1,SW3,Q9-16,Q40-42,Treble1,Treble50",
     "variants": []
   },
   "sheets": [
