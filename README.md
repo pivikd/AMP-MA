@@ -8,7 +8,7 @@
 
 # Project Status
 
-   **AMP-AM is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q3 2026**
+   **AMP-AM is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q4 2026**
    
    **The project is currently in the pre-alpha stage – creating the first prototype**
 
@@ -40,7 +40,7 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
    1. Input buffer
    1. Preamp ([Mu-AMP](https://www.muzique.com/amz/mini.htm))
    1. Compressor ([Ibanez CP835](https://www.scribd.com/document/976348354/Ibanez-CP835-Schematic))
-   1. Tone Stack ([JCM900 2100 SL-X](https://stompboxelectronics.com/2023/12/16/the-marshall-tone-stacks/))
+   1. Tone Stack
    1. Recovery Stage
    1. Power Amp ([LM1875](https://www.ti.com/lit/ds/symlink/lm1875.pdf))
 
@@ -53,7 +53,7 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
 
 ## Integrated Tone Stacks
    - Fender Treble-Middle-Bass
-   - Marshall JCM900 2100 SL-x
+   - Marshall ([JCM900 2100 SL-X](https://stompboxelectronics.com/2023/12/16/the-marshall-tone-stacks/))
    - Dumble Rock
 
       Own:
