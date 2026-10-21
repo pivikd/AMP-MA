@@ -5289,7 +5289,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 84.7852 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -6010,7 +6010,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D14.0mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 84.7852 76.2 0)
 			(hide yes)
 			(show_name no)

@@ -4866,7 +4866,7 @@
 		)
 	)
 	(global_label "Neutral"
-		(shape input)
+		(shape passive)
 		(at 105.41 87.63 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4877,7 +4877,7 @@
 		)
 		(uuid "8d170283-7621-4ebb-b3d9-29b6a1481640")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.41 96.1188 90)
+			(at 105.41 95.0075 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5036,6 +5036,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 80.01 38.1 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5045,7 +5046,7 @@
 		(dnp no)
 		(uuid "012fec79-0e0d-4947-b55f-9c971418333a")
 		(property "Reference" "VOL1"
-			(at 78.232 37.084 0)
+			(at 77.978 36.83 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5056,7 +5057,7 @@
 			)
 		)
 		(property "Value" "100KA"
-			(at 78.486 39.37 0)
+			(at 78.486 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6553,7 +6554,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "2M"
 			(at 40.386 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,6 +7600,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 80.01 78.74 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7608,7 +7610,7 @@
 		(dnp no)
 		(uuid "6b15c43e-f6f3-49a7-824a-a4f324de60bb")
 		(property "Reference" "VOL2"
-			(at 78.232 77.724 0)
+			(at 78.232 77.47 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9536,7 +9538,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "2M"
 			(at 40.64 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)

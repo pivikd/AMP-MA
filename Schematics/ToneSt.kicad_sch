@@ -1857,7 +1857,7 @@
 			)
 		)
 	)
-	(global_label "CP_OUT"
+	(global_label "BP_OUT"
 		(shape input)
 		(at 26.67 60.96 180)
 		(fields_autoplaced yes)
@@ -1869,7 +1869,7 @@
 		)
 		(uuid "692239d5-99ce-4a48-8de4-d766f7934022")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5486 60.96 0)
+			(at 16.799 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2318,7 +2318,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31a0f8ae-cb55-4d29-bad2-667e885a2805")
-		(property "Reference" "Treble50"
+		(property "Reference" "Treble1"
 			(at 93.98 66.04 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2418,7 +2418,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/f803cc2a-45bd-4029-aa56-0c7cd35c7800"
-					(reference "Treble50")
+					(reference "Treble1")
 					(unit 1)
 				)
 			)
