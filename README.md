@@ -8,7 +8,7 @@
 
 # Project Status
 
-   **AMP-AM is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q3 2026**
+   **AMP-AM is currently in the early development phase and is considered unstable. The first stable release is scheduled for Q4 2026**
    
    **The project is currently in the pre-alpha stage – creating the first prototype**
 
@@ -23,14 +23,14 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
 
    1. [Key Features](#key-features)
    1. [Signal Chain](#signal-chain)
-   <!-- 1. [Integrated Effects Modules](#integrated-effects-modules) -->
-
+   1. [Integrated Tone Stacks](#integrated-tone-stacks)
+<!-- 1. [Integrated Effects Modules](#integrated-effects-modules) -->
 ## Key Features
-   - **Tube-like Architecture**: Uses **Mu-amp**  based cascades with **2SK30A**  transistors to achieve a warm, organic sound and harmonic saturation that mimics vacuum tube behavior.
+   - **Tube-like Architecture**: Uses **Mu-amp** based cascades with **2SK30A** transistors to achieve a warm, organic sound and harmonic saturation that mimics vacuum tube behavior.
 
    - **Dual Input Support**: Designed to handle two guitars simultaneously.
 
-   - **Legendary Tone Stack**: Features a 3-band EQ based on the classic **Marshall JCM900 2100 SL-X preamp**.
+   - **Legendary Tone Stacks**: Features a 3-band EQ based on the classic tone stacks([Integrated Tone Stacks](#integrated-tone-stacks)).
 
    - **Integrated Compression**: Built-in compressor block based on the vintage **Ibanez CP835** circuitry.
 
@@ -40,13 +40,22 @@ This project is designed and maintained by: [Danylo Pyvovarov](https://github.co
    1. Input buffer
    1. Preamp ([Mu-AMP](https://www.muzique.com/amz/mini.htm))
    1. Compressor ([Ibanez CP835](https://www.scribd.com/document/976348354/Ibanez-CP835-Schematic))
-   1. Tone Stack ([JCM900 2100 SL-X](https://stompboxelectronics.com/2023/12/16/the-marshall-tone-stacks/))
+   1. Tone Stack
    1. Recovery Stage
    1. Power Amp ([LM1875](https://www.ti.com/lit/ds/symlink/lm1875.pdf))
 
 <!-- ## Integrated Effects Modules
-|       Effect      |   based on   |  Satus  |
+|       Effect      |   based on   |  Status  |
 |-------------------|--------------|---------|
 | Compressor        | Ibanez CP835 |  done   |
-<!-- | Over Drive        | Boss OD3     | planed  |
-| Chorus            | Boss Ch1     | planed  | --> 
+<!-- | Over Drive        | Boss OD3     | planned  |
+| Chorus            | Boss Ch1     | planned  | --> 
+
+## Integrated Tone Stacks
+   - Fender Treble-Middle-Bass
+   - Marshall ([JCM900 2100 SL-X](https://stompboxelectronics.com/2023/12/16/the-marshall-tone-stacks/))
+   - Dumble Rock
+
+      Own:
+   - TS0 (based on Marshall JCM900 2100 SL-x)
+   - TS1 (based on Dumble Rock)
