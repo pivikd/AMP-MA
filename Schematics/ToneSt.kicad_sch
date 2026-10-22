@@ -2079,7 +2079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17eb215e-5ffa-4263-b5b9-6d4b31a11bf7")
-		(property "Reference" "JP0"
+		(property "Reference" "JP54"
 			(at 111.76 60.96 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2142,7 +2142,7 @@
 		(instances
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/f803cc2a-45bd-4029-aa56-0c7cd35c7800"
-					(reference "JP0")
+					(reference "JP54")
 					(unit 1)
 				)
 			)

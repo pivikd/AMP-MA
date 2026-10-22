@@ -115,24 +115,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_overlap|123040000|103350002|4aadd2b8-b0eb-42d6-ba0f-e310e8228f13|7735cdb6-d7cd-4c8b-8e50-06b0ab169156",
-          ""
-        ],
-        [
-          "silk_overlap|129659998|110100000|8570e5e6-bddd-4999-8a79-c5cb80fe2f8e|974a4400-9e33-4e4e-aa27-cb3dfa66d863",
-          ""
-        ],
-        [
-          "silk_overlap|179037864|65724824|67f17404-c133-4738-8e2d-fdd9f7d4e7ba|eba5b4fe-9b91-4889-b5a7-acfa50cbaef4",
-          ""
-        ],
-        [
-          "silk_overlap|77410000|55680000|30dbe80c-53eb-4abb-adb6-0257242bd761|5bdc386e-c1d6-4649-8ad4-12f461454240",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -939,7 +922,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "Bass1,Bass50,Sustain1-2,Treble1,Treble50,Q9-16,Q40-42,SW1,SW3,Middle1,Middle50,C9,C18-19,C24-27,C32,C37-46,C50-55,GND1,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR47,#PWR51-65,T50,H1-3,JP52D50,J1-9,JP40,JP50-54,R8-9,R23-24,R27,R41-59,R65-67,RV2,RV50,LEVEL1-2,LEVEL40-41,CE9-11,JP52.D50,D2,D5-11,D30,D33-34,U2,U5-6",
+    "used_designators": "J1-9,JP52D50,H1-3,T50,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR47,#PWR51-65,GND1,C9,C18-19,C24-27,C32,C37-46,C50-55,Middle1,Middle50,U2,U5-6,D2,D5-11,D30,D33-34,JP52.D50,CE9-11,LEVEL1-2,LEVEL40-41,RV2,RV50,R8-9,R23-24,R27,R41-59,R65-67,JP40,JP50-54,Bass1,Bass50,Sustain1-2,SW1,SW3,Q9-16,Q40-42,Treble1,Treble50",
     "variants": []
   },
   "sheets": [

@@ -5449,7 +5449,7 @@
 				)
 			)
 		)
-		(property "Value" "LM337_TO220"
+		(property "Value" "LM337"
 			(at 129.54 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6238,7 +6238,7 @@
 				)
 			)
 		)
-		(property "Value" "LM317_TO-220"
+		(property "Value" "LM317"
 			(at 129.54 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
