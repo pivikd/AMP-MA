@@ -1516,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce869c4-0699-47d3-831a-bbe9f32727ab")
+	)
+	(wire
+		(pts
 			(xy 107.95 24.13) (xy 123.19 24.13)
 		)
 		(stroke
@@ -1543,16 +1553,6 @@
 			(type default)
 		)
 		(uuid "a0b50254-37b3-42b3-ae7c-d3142e1245f6")
-	)
-	(wire
-		(pts
-			(xy 116.84 63.5) (xy 121.92 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1bb2e60-1f9f-48c2-8de0-c950ac8ee81a")
 	)
 	(wire
 		(pts
@@ -1746,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 106.68 63.5)
+			(xy 101.6 63.5) (xy 107.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2063,86 +2063,6 @@
 			(project "AMP-MA"
 				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/f803cc2a-45bd-4029-aa56-0c7cd35c7800"
 					(reference "JP50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 111.76 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "17eb215e-5ffa-4263-b5b9-6d4b31a11bf7")
-		(property "Reference" "JP54"
-			(at 111.76 60.96 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 111.76 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 111.76 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 111.76 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a21a686-b14b-4982-b156-ea8ee4fdcdb6")
-		)
-		(pin "1"
-			(uuid "85035115-2a38-4cfe-ab75-4ade43e4a849")
-		)
-		(instances
-			(project "AMP-MA"
-				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/f803cc2a-45bd-4029-aa56-0c7cd35c7800"
-					(reference "JP54")
 					(unit 1)
 				)
 			)
@@ -2513,7 +2433,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4554506e-084c-4551-abb4-5900223cfc6b")
 		(property "Reference" "C55"
 			(at 70.358 66.04 90)
@@ -2673,7 +2593,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "58a55192-30b6-4e1a-935c-726dbdcd6db9")
 		(property "Reference" "C54"
 			(at 133.604 28.194 0)
@@ -2873,7 +2793,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d6e4257-5575-4895-81ae-f2393d0dd38e")
 		(property "Reference" "R52"
 			(at 131.318 40.64 0)
@@ -2952,7 +2872,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "840c1386-705d-49aa-a15d-6347bb846d1e")
 		(property "Reference" "C56"
 			(at 108.458 69.85 90)
@@ -3409,13 +3329,14 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 105.41 78.74 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c6e6ba96-2bcf-4c18-8024-f3fae9e2ec43")
 		(property "Reference" "RV50"
 			(at 103.378 78.74 90)
@@ -3602,6 +3523,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 111.76 63.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d3d75d13-388a-4849-af71-0f98c7988ee5")
+		(property "Reference" "R54"
+			(at 111.76 61.468 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1R"
+			(at 111.76 65.786 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 111.76 65.278 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a96b749e-d7ef-4569-b889-bca2a52576e3")
+		)
+		(pin "1"
+			(uuid "791703b1-f1f4-4160-9d1d-e890748b13b5")
+		)
+		(instances
+			(project "AMP-MA"
+				(path "/4094031b-a9da-4ac5-aaa1-42b342c92a3e/f803cc2a-45bd-4029-aa56-0c7cd35c7800"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 82.55 0)
 		(unit 1)
@@ -3691,7 +3692,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e5e652e1-bfb2-42d1-b8e7-6cf5d6de82b4")
 		(property "Reference" "R53"
 			(at 69.088 72.39 0)

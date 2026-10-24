@@ -78,9 +78,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 2.2,
-          "width": 2.2
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -91,7 +91,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
+          "corner_radius": 1.0,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -570,18 +570,18 @@
         "clearance": 4.0,
         "name": "220V",
         "pcb_color": "rgb(204, 102, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 4.0,
         "tuning_profile": ""
       },
       {
-        "clearance": 0.6,
+        "clearance": 0.8,
         "name": "HSignal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 1.4,
         "tuning_profile": "",
         "via_diameter": 1.4,
         "via_drill": 1.0
@@ -590,7 +590,7 @@
         "clearance": 0.4,
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -598,10 +598,21 @@
         "via_drill": 0.8
       },
       {
+        "clearance": 0.5,
+        "diff_pair_gap": 0.55,
+        "diff_pair_width": 0.6,
+        "name": "LM IN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.2,
         "name": "LOGIC",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -612,7 +623,7 @@
         "clearance": 0.2,
         "name": "LowSignal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": ""
@@ -621,16 +632,25 @@
         "clearance": 0.4,
         "name": "PXB OUT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.2,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.5,
+        "name": "Tone St",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
         "tuning_profile": ""
       },
       {
         "clearance": 0.25,
         "name": "VB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "tuning_profile": "",
@@ -641,7 +661,7 @@
         "clearance": 0.3,
         "name": "VC + VE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -651,7 +671,7 @@
       {
         "name": "VMu",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "tuning_profile": "",
@@ -760,6 +780,26 @@
       {
         "netclass": "PXB OUT",
         "pattern": "PXB_3"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/VCC1"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/VEE1"
+      },
+      {
+        "netclass": "HSignal",
+        "pattern": "/Speaker"
+      },
+      {
+        "netclass": "LM IN",
+        "pattern": "/LM_I*"
+      },
+      {
+        "netclass": "Tone St",
+        "pattern": "TS_OUT"
       }
     ]
   },
@@ -767,7 +807,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/pivik/Pictures/Kicad/PCB/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -922,7 +962,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "J1-9,JP52D50,H1-3,T50,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR47,#PWR51-65,GND1,C9,C18-19,C24-27,C32,C37-46,C50-55,Middle1,Middle50,U2,U5-6,D2,D5-11,D30,D33-34,JP52.D50,CE9-11,LEVEL1-2,LEVEL40-41,RV2,RV50,R8-9,R23-24,R27,R41-59,R65-67,JP40,JP50-54,Bass1,Bass50,Sustain1-2,SW1,SW3,Q9-16,Q40-42,Treble1,Treble50",
+    "used_designators": "Bass1-2,Bass50,Sustain1-2,Treble1-2,Treble50,Q9-16,Q40-42,SW1,SW3,C9,C18-19,C24-27,C32,C37-46,C50-55,C57-59,C64-66,Middle1-2,Middle50,GND1,#PWR2,#PWR5,#PWR8-9,#PWR13,#PWR25-30,#PWR32-33,#PWR41,#PWR47,#PWR51-67,T50,H1-3,JP52D50,J1-9,R8-9,R23-24,R27,R41-59,R65-67,JP40,JP50-57,RV2,RV50-51,LEVEL1-2,LEVEL40-41,CE9-11,JP52.D50,D2,D5-11,D30,D33-34,U2,U5-6",
     "variants": []
   },
   "sheets": [
