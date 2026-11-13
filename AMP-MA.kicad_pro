@@ -810,7 +810,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../../Pictures/Kicad/PCB/",
+      "plot": "../../../Pictures/Kicad/Gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -973,7 +973,7 @@
         "uuid": "4094031b-a9da-4ac5-aaa1-42b342c92a3e"
       }
     ],
-    "used_designators": "RV2,RV50-51,Bass1-2,Bass50,Sustain1-2,Treble1-2,Treble50,Q2-3,Q9-16,Q40-42,SW1,SW3,D2,D5-11,D30,D33-34,U2,U5-6,Middle1-2,Middle50,GND1-2,#PWR2,#PWR5,#PWR8-9,#PWR11,#PWR13,#PWR23,#PWR25-30,#PWR32-33,#PWR35-36,#PWR41-43,#PWR47,#PWR51-67,T50,H1-3,VOL3,JP52D50,J1-9,R8-9,R13-14,R19-24,R27,R41-59,R65-67,JP40,JP50-57,C9,C14-15,C17-19,C24-27,C32,C36-46,C50-55,C57-59,C64-66,IN3,LEVEL1-2,LEVEL40-41,CE9-11,JP52.D50",
+    "used_designators": "JP52.D50,CE9-11,LEVEL1-2,LEVEL40-41,IN3,C9,C14-15,C17-19,C24-27,C32,C36-46,C50-55,C57-59,C64-66,JP40,JP50-57,R8-9,R13-14,R19-24,R27,R41-59,R65-67,J1-9,JP52D50,VOL3,RV2,RV50-51,Bass1-2,Bass50,Sustain1-2,SW1,SW3,Treble1-2,Treble50,Q2-3,Q9-16,Q40-42,U2,U5-6,D2,D5-11,D30,D33-34,Middle1-2,Middle50,GND1-2,#PWR2,#PWR5,#PWR8-9,#PWR11,#PWR13,#PWR23,#PWR25-30,#PWR32-33,#PWR35-36,#PWR41-43,#PWR47,#PWR51-67,T50,H1-3",
     "variants": []
   },
   "sheets": [

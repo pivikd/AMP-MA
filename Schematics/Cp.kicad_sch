@@ -2953,7 +2953,7 @@
 	)
 	(text "Tant"
 		(exclude_from_sim no)
-		(at 187.706 74.422 0)
+		(at 189.23 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4713,7 +4713,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "100n"
 			(at 175.26 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,7 +6486,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "100n"
 			(at 126.746 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)

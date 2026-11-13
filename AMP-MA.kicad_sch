@@ -4968,6 +4968,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 86.36 52.07 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4977,7 +4978,7 @@
 		(dnp no)
 		(uuid "012fec79-0e0d-4947-b55f-9c971418333a")
 		(property "Reference" "VOL1"
-			(at 84.328 51.308 0)
+			(at 84.328 52.832 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4988,7 +4989,7 @@
 			)
 		)
 		(property "Value" "100KA"
-			(at 84.836 53.086 0)
+			(at 84.836 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7381,6 +7382,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 86.36 90.17 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7390,7 +7392,7 @@
 		(dnp no)
 		(uuid "6b15c43e-f6f3-49a7-824a-a4f324de60bb")
 		(property "Reference" "VOL2"
-			(at 84.582 88.9 0)
+			(at 84.582 91.44 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7401,7 +7403,7 @@
 			)
 		)
 		(property "Value" "100KA"
-			(at 84.836 91.186 0)
+			(at 84.836 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10852,7 +10854,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "330n"
+		(property "Value" "220n"
 			(at 73.66 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
