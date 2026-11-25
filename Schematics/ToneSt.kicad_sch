@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "AMP-MA Tone Stack part")
-		(rev "10.2026")
+		(rev "0.2")
 		(company "Copyright (c) 2026 Pyvovarov Dannylo")
 		(comment 1 "License: CERN-OHL-S-2.0")
 	)

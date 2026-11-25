@@ -5,8 +5,8 @@
 	(uuid "0ec033a6-4664-40d0-941e-cd03f2bb264a")
 	(paper "A4")
 	(title_block
-		(title "AMP-MA Pwer Supply part")
-		(rev "10.26")
+		(title "AMP-MA Power Supply part")
+		(rev "0.2")
 		(company "Copyright (c) 2026 Pyvovarov Dannylo")
 		(comment 1 "License: CERN-OHL-S-2.0")
 	)
